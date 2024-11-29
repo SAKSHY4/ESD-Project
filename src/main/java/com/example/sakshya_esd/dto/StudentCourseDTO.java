@@ -1,0 +1,15 @@
+package com.example.sakshya_esd.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class StudentCourseDTO {
+    private Long studentId;
+    private Long courseId;
+}
